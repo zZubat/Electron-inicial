@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    height: 10vh;
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.conteudo {
+    height: 80vh;
+}
+
+aside {
+    background-color: darkgrey;
+}
+
+footer {
+    height: 10vh;
+    border-top: thin solid #000;
+}
