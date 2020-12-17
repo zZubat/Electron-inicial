@@ -9,7 +9,8 @@ function createWindow () {
     }
   })
 
-  win.loadFile('src/index.html')
+  win.loadFile('src/integrantes.html')
+  win.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow)
